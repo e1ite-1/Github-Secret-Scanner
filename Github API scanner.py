@@ -37,7 +37,10 @@ patterns = {
     "Generic":
         r'(?i)(?:api[_-]?key|secret|token)'
         r'\s*[:=]\s*["\']?'
-        r'([A-Za-z0-9_.-]{20,})'
+        r'([A-Za-z0-9_.-]{20,})',
+    
+    "Azure Client Secret": # Microsoft Entra / Azure AD client secret
+        r'(?i)(?:ClientSecret|AppSecret)\s*[:=]\s*["\']?([A-Za-z0-9._~-]{20,40})',
 }
 
 
