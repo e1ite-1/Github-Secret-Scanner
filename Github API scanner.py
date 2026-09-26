@@ -41,6 +41,9 @@ patterns = {
     
     "Azure Client Secret": # Microsoft Entra / Azure AD client secret
         r'(?i)(?:ClientSecret|AppSecret)\s*[:=]\s*["\']?([A-Za-z0-9._~-]{20,40})',
+
+    "OpenAI API Key": #OpenAI API Keys
+        r"\bsk-(?:proj-)?[A-Za-z0-9_-]{20,}\b",
 }
 
 
