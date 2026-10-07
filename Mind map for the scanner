@@ -1,0 +1,23 @@
+                 REPOSITORY
+                     │
+          ┌──────────┴──────────┐
+          ▼                     ▼
+    Current Files          Git History
+          │                     │
+          └──────────┬──────────┘
+                     ▼
+              Secret Scanner
+                     │
+       ┌─────────────┼─────────────┐
+       ▼             ▼             ▼
+   API Keys     Private Keys    Passwords
+       │             │             │
+       ├──────── Database URLs ─────┤
+       │             │             │
+       └──────── Auth Tokens ───────┘
+                     │
+                     ▼
+               Risk Analysis
+                     │
+                     ▼
+                report.json
